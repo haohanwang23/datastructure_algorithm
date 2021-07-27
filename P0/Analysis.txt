@@ -1,0 +1,8 @@
+Run Time Analysis 
+
+
+1. Task0 has a worst-case time-complexity of 2;
+2. Task1 has a worst-case time-complexity of 2n + 2;
+3. Task2 has a worst-case time-complexity of 3n + 1;
+4. Task3 has a worst-case time-complexity of 4n + 3;
+5. Task4 has a worst-case time-complexity of 5n.
