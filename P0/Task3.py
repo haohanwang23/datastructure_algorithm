@@ -69,4 +69,4 @@ for call in cfb:
     calls += 1
 
 ftf = calls / len(cfb)
-print(f"{round(ftf*100,4)} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.")
+print(f"{round(ftf*100,2)} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.")

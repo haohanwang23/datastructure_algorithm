@@ -34,7 +34,7 @@ for caller, callee, time, duration in calls:
     # if call[1] not in call_len.keys():
     #     call_len[call[1]] = 0
     call_len[caller] += int(duration)
-    call_len[caller] += int(duration)
+    call_len[callee] += int(duration)
 
 lc = max(call_len,key= call_len.get)
 print(f'{lc} spent the longest time, {call_len[lc]} seconds, on the phone during September 2016. ')
