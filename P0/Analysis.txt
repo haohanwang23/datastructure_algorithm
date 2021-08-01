@@ -17,6 +17,6 @@ Run Time Analysis
     There are four for loops each of O(n),  and 3 variables each of O(1)
     Hence,The overall worst-case notation of this code is 5O(n) + 3O(1).
 
-5. Task4 has a worst-case time-complexity of 5n.
-    There are four for loops each of O(n),
+5. Task4 has a worst-case time-complexity of n^2 + 4n.
+    There are four for loops each of O(n) and a list comprehension of O(n^2) 
     Hence,The overall worst-case notation of this code is 5O(n).
